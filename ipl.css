@@ -1,0 +1,123 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #1a1a1a;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Table styling */
+section.points-table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 90%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: center;
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+thead th {
+    background-color: #2c3e50;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+td {
+    font-size: 14px;
+    color: #333;
+}
+
+th {
+    font-size: 16px;
+}
+
+table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+/* Position-specific colors */
+.first {
+    background-color: #4CAF50; /* Green for 1st place */
+    color: white;
+}
+
+.second {
+    background-color: #FFEB3B; /* Yellow for 2nd place */
+    color: #333;
+}
+
+.third {
+    background-color: #FFC107; /* Amber for 3rd place */
+    color: #333;
+}
+
+.fourth {
+    background-color: #03A9F4; /* Light blue for 4th place */
+    color: white;
+}
+
+.fifth {
+    background-color: #E91E63; /* Pink for 5th place */
+    color: white;
+}
+
+.sixth {
+    background-color: #9C27B0; /* Purple for 6th place */
+    color: white;
+}
+
+.seventh {
+    background-color: #FF5722; /* Orange for 7th place */
+    color: white;
+}
+
+.eighth {
+    background-color: #795548; /* Brown for 8th place */
+    color: white;
+}
+
+.ninth {
+    background-color: #607D8B; /* Blue Grey for 9th place */
+    color: white;
+}
+
+.tenth {
+    background-color: #f44336; /* Red for 10th place */
+    color: white;
+}
