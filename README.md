@@ -25,4 +25,4 @@ A **dynamic IPL 2024 Points Table** built using **HTML, CSS, and JavaScript**. T
 Feel free to fork this project and enhance it!  
 
 ---
-💡 *Made with ❤️ by [Your Name]*
+💡 *Made with ❤️ by Lakshya Agrawal
